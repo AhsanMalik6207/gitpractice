@@ -2,8 +2,8 @@ import React from "react";
 import Header from "./containers/Header";
 import ProductDetails from "./containers/ProductDetails";
 import ProductListing from "./containers/ProductListing";
-import {BrowserRouter as Router,Route} from 'react-router-dom';
-import {Switch} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import {Switch} from 'react-router-dom'
 import './index.css'
 
 function App() {
@@ -11,11 +11,11 @@ function App() {
     <div>
       <Router>
         <Header/>
-        <Switch>
+        <Routes>
         <Route path='/' exact component={ProductListing}></Route>
         <Route path='/product/:productId' exact component={ProductDetails}></Route>
         <Route>404 Not Found!</Route>
-        </Switch>
+        </Routes>
         </Router>
     </div>
   );

@@ -2,7 +2,7 @@ import React from 'react'
 import '../index.css'
 import axios from 'axios'
 import { useEffect } from 'react'
-import { useParams } from 'react-router-dom/cjs/react-router-dom.min'
+import { useParams } from 'react-router'
 import { useDispatch, useSelector } from 'react-redux'
 import { selectedProducts,removeSelectedProducts } from './redux/actions/productAction'
 
