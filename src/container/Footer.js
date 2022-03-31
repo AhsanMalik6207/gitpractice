@@ -10,7 +10,7 @@ export default function Footer() {
 			<Container maxWidth="sm" background-color="#6d6a6a">
 				<Toolbar>
 					<Typography variant="h6" color="blue">
-						&copy; 2022 @Ahsan Shopping-Store
+						<h2>&copy; 2022 @Ahsan Shopping-Store</h2>
 					</Typography>
 				</Toolbar>
 			</Container>
