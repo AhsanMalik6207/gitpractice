@@ -1,15 +1,12 @@
-
-.navbar{
-    list-style: none;
-    display:flex;
-     text-align: center;
-     margin-left: 300px;
-     font-size: 20px;
-     
-
+.navbar {
+	list-style: none;
+	display: flex;
+	text-align: center;
+	margin-left: 300px;
+	font-size: 20px;
 }
-.navbar li{
-    margin-left: 40px;
-    text-justify: inter-cluster;
-    justify-content: center;
+.navbar li {
+	margin-left: 40px;
+	text-justify: inter-cluster;
+	justify-content: center;
 }
