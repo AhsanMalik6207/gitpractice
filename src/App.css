@@ -40,6 +40,7 @@
 .ui.menu.fixed {
   height: 60px;
   padding-top: 15px;
+  background-color: rgb(109, 106, 106);
 }
 
 .ui.grid.container {
