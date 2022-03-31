@@ -38,9 +38,11 @@
 }
 
 .ui.menu.fixed {
-  height: 60px;
-  padding-top: 15px;
-  background-color: rgb(109, 106, 106);
+  background-color: rgb(235 235 235);
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .ui.grid.container {
@@ -104,4 +106,9 @@
 }
 .cardBtn:hover{
   background-color: rgb(153, 153, 153);
+}
+.footer{
+  margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(235 235 235) !important;
 }
