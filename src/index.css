@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Roboto+Condensed:wght@400;700&display=swap');
+
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+.ui.cards > .card > .image {
+  height: 250px;
+  padding: 20px;
+  background: #fff;
+  margin: auto;
+}
+.ui.cards > .card > .image > img {
+  height: 100%;
+  max-width: 100%;
+  width: auto;
+}
+.ui.cards > .card > .content > .header {
+  height: 48px;
+  overflow: hidden;
+  margin-bottom: 5px;
+  font-size: 17px !important;
+}
+.ui.cards > .card > .content > .description {
+  height: 36px;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+.ui.menu.fixed {
+  height: 130px;
+}
+.ui.grid.container {
+  margin-top: 120px;
+  
+}
+.ui.grid > .row {
+  background: #f7f7f7 !important;
+}
+.ui.grid > .row {
+  background: #fff;
+}
+.ui.grid > .row > .column.lp {
+  padding: 20px 40px 20px 20px;
+  align-self: flex-start !important;
+}
+.ui.grid > .row > .column.rp {
+  padding: 20px 20px 20px 40px;
+  text-align: left;
+  align-self: flex-start !important;
+}
+
+.ui.grid > .row > .column > img,
+.ui.grid > .row > img {
+  height: 100%;
+}
+.ui.placeholder .header:not(:first-child):before,
+.ui.placeholder .image:not(:first-child):before,
+.ui.placeholder .paragraph:not(:first-child):before {
+  display: none;
+}
+
+.ui.label,
+.ui.labels .label {
+  font-size: 22px;
+}
+
+.column.rp h1 {
+  color: #333;
+}
+.column.rp p {
+  font-size: 18px;
+  color: #777;
+}
+.ui.placeholder.segment .column .button,
+.ui.placeholder.segment .column .field,
+.ui.placeholder.segment .column textarea,
+.ui.placeholder.segment .column > .ui.input {
+  background-color: #ff3e6c;
+  border: 1px solid #ff3e6c;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 0;
+}
+.imgLogo{
+  width: 200px;
+  height: 120px;
+}
+.cardBtn{
+  padding: 8px;
+  border:none;
+  cursor: pointer;
+  margin-top: 7px;
+  background-color: rgb(0, 135, 194);
+  color:white;
+  border-radius: 5px;
+  font-size: 16px;
+}
