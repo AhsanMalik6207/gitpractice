@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './container/Header';
+import Footer from './container/Footer';
 import ProductListening from './container/ProductListening';
 import ProductDetails from './container/ProductDetails';
 import { BrowserRouter , Routes , Route} from 'react-router-dom'
@@ -14,6 +15,7 @@ function App() {
         <Route>404 Not Found!</Route>
       </Routes>
     </BrowserRouter>
+    <Footer />
   </div>
   );
 }
